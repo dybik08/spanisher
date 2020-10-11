@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7bcf102-6490-4936-b849-cb46d55bc8f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Lessons/SelectWordsLesson.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Lessons/SelectWordsLesson.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +70,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602186008138</updated>
-      <workItem from="1602186009538" duration="5416000" />
+      <workItem from="1602186009538" duration="5804000" />
+      <workItem from="1602229010003" duration="7000" />
+      <workItem from="1602436979800" duration="1448000" />
     </task>
+    <task id="LOCAL-00001" summary="initial &amp; basic exercise template &amp; prettier">
+      <created>1602192247880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602192247880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,10 +92,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial &amp; basic exercise template &amp; prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial &amp; basic exercise template &amp; prettier" />
   </component>
 </project>

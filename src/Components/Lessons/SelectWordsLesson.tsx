@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const words = ['es', 'mi', 'madre', 'Esta'];
+let words = ['es', 'mi', 'madre', 'Esta'];
 const correctSentence = 'Esta es mi madre';
 
 const SelectWordsLesson = () => {
@@ -37,8 +37,11 @@ const SelectWordsLesson = () => {
 
     const renderAnswerButtons = words.map((word, index) => (
         <button
-            onClick={(event: React.MouseEvent<HTMLButtonElement> & { target: HTMLInputElement }) =>
+            onClick={(event: React.MouseEvent<HTMLButtonElement> & { target: HTMLInputElement }) => {
                 onAnswerButtonPress(word, index)
+                words = words.filter(w => w !== word)
+            }
+
             }
             value={'es'}
             style={{ margin: '0px 10px' }}
