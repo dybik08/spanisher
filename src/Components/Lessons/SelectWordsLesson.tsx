@@ -38,11 +38,9 @@ const SelectWordsLesson = () => {
     const renderAnswerButtons = words.map((word, index) => (
         <button
             onClick={(event: React.MouseEvent<HTMLButtonElement> & { target: HTMLInputElement }) => {
-                onAnswerButtonPress(word, index)
-                words = words.filter(w => w !== word)
-            }
-
-            }
+                onAnswerButtonPress(word, index);
+                words = words.filter(w => w !== word);
+            }}
             value={'es'}
             style={{ margin: '0px 10px' }}
         >
